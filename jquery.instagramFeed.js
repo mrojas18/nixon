@@ -181,7 +181,7 @@
 
                             html += "<p class='card-text d-inline-block text-truncate' style='max-width: 150px;'>"+ escape_string(caption) +"</p>";
                             html +="<div class='form-group'>";
-                            html +="<a href='#' data-name='Descripcion' data-price='0.5' class='add-to-cart btn btn-primary'>Agregar al carrito</a>";
+                            html +="<a href='#' onclick=\"console.log(this)\" data-name='Descripcion' data-price='0.5' class='add-to-cart btn btn-primary'>Agregar al carrito</a>";
                             html +="</div>";
                             html += "</div>";
                             html += "<div class='card-footer'>";
